@@ -1,31 +1,17 @@
-@font-face {
-    font-family: 'bebas_belloregular';
-    src: url('fonts/bebasbello-golky-webfont.woff2') format('woff2'),
-         url('fonts/bebasbello-golky-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-@font-face {
-    font-family: 'bebas_golloregular';
-    src: url('fonts/bebasgollo-vmag4-webfont.woff2') format('woff2'),
-         url('fonts/bebasgollo-vmag4-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
 
 body {
     background-image: url(Shimages/Shiba2.jpg);
     background-repeat: no-repeat;
     background-size:auto;
+    overflow: hidden;
 }
 
 body span {
-    font-family: 'bebas_sans';
-    font-size: 2rem;
+    font-family: 'Rubik Bubbles';
+    font-size: 3rem;
     position: relative;
     color:pink;
 }
@@ -35,8 +21,8 @@ div {
     position: relative;
     left: 25rem;
     padding: 1rem;
-    font-family: 'bebas_sans';
-    font-size: 2rem;
+    font-family: 'Rubik Bubbles';
+    font-size: 3rem;
     color: pink;
 }
 
@@ -52,7 +38,8 @@ div:hover{
 
 h3{
     position:relative;
-    left: 20rem;
-    font-size: 2rem;
+    left: 10rem;
+    font-size: 3rem;
     color: rgb(180, 100, 113);
+    font-family: 'Rubik Bubbles';
 }
